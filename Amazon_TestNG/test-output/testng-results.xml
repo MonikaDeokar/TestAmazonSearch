@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-11T23:21:14 IST" name="Default suite" finished-at="2021-08-11T23:22:51 IST" duration-ms="96419">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4f6ee6e4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-11T23:21:14 IST" name="Default test" finished-at="2021-08-11T23:22:51 IST" duration-ms="96419">
+      <class name="testrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@4f6ee6e4]" started-at="2021-08-11T23:21:14 IST" name="setUpClass" finished-at="2021-08-11T23:21:15 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4f6ee6e4]" started-at="2021-08-11T23:21:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-11T23:21:55 IST" duration-ms="39503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User browse product catergory from dropdown list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User search for product catergory from dropdown list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4f6ee6e4]" started-at="2021-08-11T23:21:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-11T23:22:24 IST" duration-ms="29606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User performs searching an valid item in the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User search an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4f6ee6e4]" started-at="2021-08-11T23:22:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-11T23:22:50 IST" duration-ms="25758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User performs searching an invalid item in the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User search an item]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@4f6ee6e4]" started-at="2021-08-11T23:22:50 IST" name="tearDownClass" finished-at="2021-08-11T23:22:51 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
